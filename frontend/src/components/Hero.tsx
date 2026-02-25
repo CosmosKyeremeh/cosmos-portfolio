@@ -8,8 +8,8 @@ import Image from "next/image";
 const Hero = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com/CosmosKyeremeh", label: "GitHub" },
-    { icon: Linkedin, href: "www.linkedin.com/in/cosmos-kyeremeh-2b33882b3", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:your-email@example.com", label: "Email" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/cosmos-kyeremeh-2b33882b3", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:kyeremehcosmos938@gmail.com", label: "Email" },
   ];
 
   return (

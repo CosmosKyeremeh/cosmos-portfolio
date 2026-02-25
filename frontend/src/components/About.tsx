@@ -117,10 +117,10 @@ const About = () => {
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6"
         >
           {[
-            { label: "Projects Completed", value: "20+" },
-            { label: "Technologies", value: "15+" },
+            { label: "Projects Completed", value: "8+" },
+            { label: "Technologies", value: "10+" },
             { label: "Years Experience", value: "3+" },
-            { label: "Happy Clients", value: "10+" },
+            { label: "Happy Clients", value: "5+" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-4xl font-bold gradient-text mb-2">
