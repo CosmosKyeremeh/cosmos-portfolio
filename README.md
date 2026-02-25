@@ -4,18 +4,15 @@
 
 ### Desktop View
 ![Desktop View](./docs/desktop-screenshot.png)
-<!-- Replace this path with your actual screenshot after deployment -->
 
 ### Mobile View
 ![Mobile View](./docs/mobile-screenshot.png)
-<!-- Replace this path with your actual screenshot after deployment -->
 
 ---
 
 A creative and futuristic full-stack personal portfolio website designed to showcase projects, skills, achievements, and professional journey while serving both recruitment and freelance purposes.
 
-🌐 **Live Demo:** [View Portfolio](https://your-portfolio-url.vercel.app)
-<!-- Update this with your actual Vercel URL after deployment -->
+🌐 **Live Demo:** [View Portfolio](https://cosmos-portfolio-ochre.vercel.app/)
 
 ---
 
@@ -40,7 +37,7 @@ The platform focuses on performance, interactivity, and clean UI inspired by a f
 - **Projects showcase** with cards and placeholders
 - **GitHub stats & achievements** integration
 - **Contact form** with EmailJS integration
-- **Social media links** (GitHub, LinkedIn, WhatsApp, Email)
+- **Social media links** (GitHub, LinkedIn, Email)
 - **Blog section** for future content
 
 ### 🛠 Admin Dashboard
@@ -197,26 +194,6 @@ npm start
 ### Backend (Coming Soon)
 
 Backend deployment guide will be added once MongoDB connection is configured.
-
----
-
-## 📸 Adding Screenshots
-
-After deployment, take screenshots and add them:
-
-1. **Desktop screenshot:** Full browser view of homepage
-2. **Mobile screenshot:** Phone view (use Chrome DevTools mobile view)
-
-Save as:
-- `docs/desktop-screenshot.png`
-- `docs/mobile-screenshot.png`
-
-Then push to GitHub:
-```bash
-git add docs/
-git commit -m "Add portfolio screenshots"
-git push
-```
 
 ---
 
