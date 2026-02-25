@@ -27,7 +27,7 @@ export const projectsData: Project[] = [
     description: "A modern Netflix-inspired movie streaming platform featuring PWA capabilities, offline support, and TMDB API integration. Browse thousands of movies and TV shows with advanced search, personalized watchlists, and installable app functionality.",
     technologies: ["JavaScript (ES6+)", "PWA", "IndexedDB", "TMDB API", "Service Workers"],
     image: "/projects/moviebox.png",
-    demoUrl: "https://movie-box-cosmoskyeremeh.vercel.app",
+    demoUrl: "https://cosmoskyeremeh.github.io/movie-box/",
     githubUrl: "https://github.com/CosmosKyeremeh/movie-box",
     featured: true,
   },
