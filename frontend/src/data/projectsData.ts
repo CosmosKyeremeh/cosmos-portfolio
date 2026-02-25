@@ -46,7 +46,7 @@ export const projectsData: Project[] = [
     title: "Portfolio Website",
     description: "Modern, responsive portfolio website with animated sections, contact form integration, and content management. Built with HTML, css and javascript.",
     technologies: ["Tailwind CSS", "Framer Motion"],
-    image: "/projects/portfolio.jpg",
+    image: "/projects/basic-porfolio1.png",
     demoUrl: "https://cosmoskyeremeh.github.io/Basic-portfolio/",
     githubUrl: "https://github.com/CosmosKyeremeh/cosmos-portfolio",
     featured: true,
