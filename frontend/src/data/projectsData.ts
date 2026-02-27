@@ -12,15 +12,15 @@ export interface Project {
 
 export const projectsData: Project[] = [
   {
-    id: 1,
-    title: "Local Borga",
-    description: "Full-stack e-commerce platform with payment integration, admin dashboard, and real-time inventory management. Built with modern technologies for seamless shopping experience.",
-    technologies: ["Next.js", "Node.js", "MongoDB", "Stripe"],
-    image: "/projects/local-borga.jpg", 
-    demoUrl: "https://your-demo-link.com",
-    githubUrl: "https://github.com/CosmosKyeremeh/local-borga",
-    featured: true,
-  },
+  id: 1,
+  title: "Local Borga",
+  description: "Premium Ghanaian staples and bespoke custom milling — delivered intercontinentally. Features real-time production tracking, a live admin command center, and printable shipping labels.",
+  technologies: ["Next.js", "Supabase", "TypeScript", "Tailwind CSS"],
+  image: "/projects/localBorgaPreview.png",
+  demoUrl: "https://local-borga.vercel.app/",
+  githubUrl: "https://github.com/CosmosKyeremeh/local-borga",
+  featured: true,
+},
   {
     id: 2,
     title: "Movie Box",
