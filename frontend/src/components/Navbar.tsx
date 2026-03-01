@@ -189,7 +189,7 @@ const Navbar = () => {
         >
           <div className="relative w-10 h-10">
             <Image
-              src="/myLogo.png"
+              src="/favicon.ico"
               alt="Cosmos Kyeremeh"
               width={40}
               height={40}
