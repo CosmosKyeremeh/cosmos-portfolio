@@ -60,7 +60,7 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Desktop Navbar - Top */}
+      {/* Desktop Navbar - Top - FIXED */}
       <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}
@@ -128,7 +128,7 @@ const Navbar = () => {
         </div>
       </motion.nav>
 
-      {/* Mobile Navbar - Bottom */}
+      {/* Mobile Navbar - Bottom - FIXED */}
       <motion.nav
         initial={{ y: 100 }}
         animate={{ y: 0 }}
@@ -171,45 +171,40 @@ const Navbar = () => {
         </div>
       </motion.nav>
 
-      {/* Mobile Top Header - Logo Only */}
+      {/* Mobile Top Logo - SCROLLS WITH CONTENT  */}
       <motion.div
-        initial={{ y: -100 }}
-        animate={{ y: 0 }}
-        className={`md:hidden fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
-          isScrolled
-            ? "bg-rich-black/95 backdrop-blur-md shadow-lg border-b border-yale-blue/20"
-            : "bg-transparent"
-        }`}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="md:hidden py-3 px-4"
       >
-        <div className="px-4 py-3 flex items-center justify-between">
-          {/* Logo - Image Only */}
-          <motion.a
-            href="#home"
-            whileHover={{ scale: 1.05, rotate: 6 }}
-            whileTap={{ scale: 0.95 }}
-            className="cursor-pointer"
-            onClick={(e) => {
-              e.preventDefault();
-              handleNavClick("#home");
-            }}
-          >
-            <div className="relative w-10 h-10">
-              <Image
-                src="/favicon.ico"
-                alt="Cosmos Kyeremeh"
-                width={40}
-                height={40}
-                className="object-contain"
-                priority
-              />
-            </div>
-          </motion.a>
-        </div>
+        <motion.a
+          href="#home"
+          whileHover={{ scale: 1.05, rotate: 6 }}
+          whileTap={{ scale: 0.95 }}
+          className="inline-block cursor-pointer"
+          onClick={(e) => {
+            e.preventDefault();
+            handleNavClick("#home");
+          }}
+        >
+          <div className="relative w-10 h-10">
+            <Image
+              src="/myLogo.png"
+              alt="Cosmos Kyeremeh"
+              width={40}
+              height={40}
+              className="object-contain"
+              priority
+            />
+          </div>
+        </motion.a>
       </motion.div>
 
       {/* Spacers */}
-      <div className="md:hidden h-14"></div>
-      <div className="hidden md:block h-14"></div>
+      {/* Desktop top navbar spacer */}
+      <div className="hidden md:block h-20"></div>
+      
+      {/* Mobile bottom navbar spacer */}
       <div className="md:hidden h-16"></div>
     </>
   );
